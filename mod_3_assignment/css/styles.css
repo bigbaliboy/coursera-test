@@ -1,0 +1,95 @@
+
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #581845;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #FFC300;
+  border-radius: 0px;
+  border: 2px solid #3F0C1F;
+  margin-bottom: 50px;
+  padding-bottom: 4px;
+}
+
+.navbar-brand {
+  padding-top: 20px;
+  padding-bottom: 8px;
+}
+
+.navbar-brand h1 {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: #C70039;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+/* Button */
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #581845;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/* BODY */
+
+/* OUR MENU */
+#topic-main{
+  margin-bottom: 20px; 
+}
+/*Tiles*/
+
+#chicken-tile, #beef-tile, #sushi-tile {
+  width: 100%;
+  margin-bottom: 15px;
+  border: 2px solid #3F0C1F;
+  padding: 15px; 
+  background-color: #FAA4A4;
+  
+}
+.topic-tiles {
+  color: black;
+  text-decoration-style: bold;
+}
+
+.content{
+  color: black;
+}
+
+
+/* END BODY */
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  .navbar-brand h1 { 
+    padding-top: 10px;
+    font-size: 5vw;  
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+
